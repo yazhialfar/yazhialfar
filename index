@@ -1,9 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mi primera página web</title>
+	<title>Cerámica</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* Estilos para la galería de imágenes */
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			margin: 20px;
+		}
+
+		.gallery img {
+			max-width: 100%;
+			max-height: 200px;
+			margin: 10px;
+		}
+	</style>
 </head>
 <body>
-	<h1>Hola, mundo!</h1>
+	<header>
+		<h1>Cerámica</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Galería</a></li>
+				<li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<h2>Galería de imágenes</h2>
+		<div class="gallery">
+			<img src="img/ceramica1.jpg" alt="Cerámica 1">
+			<img src="img/ceramica2.jpg" alt="Cerámica 2">
+			<img src="img/ceramica3.jpg" alt="Cerámica 3">
+			<img src="img/ceramica4.jpg" alt="Cerámica 4">
+			<img src="img/ceramica5.jpg" alt="Cerámica 5">
+			<img src="img/ceramica6.jpg" alt="Cerámica 6">
+		</div>
+	</main>
+
+	<footer>
+		<p>Derechos reservados © 2023 Cerámica. Todos los derechos reservados.</p>
+	</footer>
+
 </body>
 </html>
